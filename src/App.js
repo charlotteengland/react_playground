@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
 import Tabs from './state/Tabs';
-import Accordian from './state-drills/Accordian'
+import Accordian from './state-drills/Accordian';
+
+
 
  
 
@@ -33,7 +35,7 @@ const sections = [
     render() {
       return (
         <div>
-         <Accordian sections={sections} />
+      
         </div>
       )
     }
